@@ -49,10 +49,7 @@ x = zeros(n, 1);
 %
 
 
-  for i=1:length(word_indices)
-    index = word_indices(i);
-    x(index) = 1;
-  end
+  x(word_indices) = 1;
 
 
 
